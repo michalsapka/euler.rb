@@ -12,7 +12,7 @@ def solution(n)
 end
 
 class TestOne < Minitest::Test
-  def test_one_to_ten
+  def test_solution
     assert_equal 29, solution(13195)
   end
 end
